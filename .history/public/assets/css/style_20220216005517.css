@@ -143,10 +143,8 @@ color: azure;
 }
 
 /* media query */
-@media only screen and (min-width: 1700px) {
-  .second_content{
-    padding:     288px 25px 288px 25px;
-  }
+@media only screen and (min-width: 1025px) {
+
 }
 @media only screen and (max-width: 1024px) and (min-width: 992px) {
   .second_content{
@@ -159,7 +157,7 @@ color: azure;
     font-size: 15px;
   }
   .second_content{
-    padding: 240px 25px 240px 25px;
+    padding: 240px 25px 151px 25px;
   }
 }
 @media only screen and (max-width: 767px) {
