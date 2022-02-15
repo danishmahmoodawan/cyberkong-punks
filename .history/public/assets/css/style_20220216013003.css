@@ -155,7 +155,7 @@ color: azure;
   }
 }
 
-@media only screen and (max-width: 992px) and (min-width: 820px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
   .pricing_tab p{
     font-size: 15px;
   }
@@ -163,12 +163,12 @@ color: azure;
     padding: 220px 25px 220px 25px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 8px) {
   .pricing_tab p{
     font-size: 15px;
   }
   .second_content{
-    padding: 146px 25px 140px 25px;
+    padding: 220px 25px 220px 25px;
   }
 }
 @media only screen and (max-width: 767px) {

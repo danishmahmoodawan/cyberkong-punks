@@ -146,7 +146,7 @@ color: azure;
 /* media query */
 @media only screen and (min-width: 1700px) {
   .second_content{
-    padding:     4% 25px;
+    padding:     3.7% 25px;
   }
 }
 @media only screen and (max-width: 1024px) and (min-width: 992px) {
@@ -155,20 +155,12 @@ color: azure;
   }
 }
 
-@media only screen and (max-width: 992px) and (min-width: 820px) {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
   .pricing_tab p{
     font-size: 15px;
   }
   .second_content{
-    padding: 220px 25px 220px 25px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .pricing_tab p{
-    font-size: 15px;
-  }
-  .second_content{
-    padding: 146px 25px 140px 25px;
+    padding: 240px 25px 240px 25px;
   }
 }
 @media only screen and (max-width: 767px) {
