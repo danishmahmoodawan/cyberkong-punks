@@ -1,0 +1,222 @@
+html {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  background: #638596;
+}
+p{
+  margin-bottom: 0px;
+  font-family: 'Press Start 2P';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFF
+}
+h2{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 0;
+}
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+/* css start */
+.top_section{
+  padding: 10px;
+  background-image: url('images/PREVIEW_Artboard61260.png');
+
+}
+.top_content .button{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+/* media query */
+@media only screen and (min-width: 1025px) {
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .empty_div img {
+    margin-top: -47px;
+    margin-bottom: -49px;
+  }
+  .first_section{
+    height: 26vh;
+    background-size: contain;
+  }
+  .right_third_col{
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .first_section{
+    height: 26vh;
+  }
+  
+  .left_third_col,
+  .right_third_col{
+    min-height: 725px;
+  }
+  .empty_div img {margin-top: -15px;
+    margin-bottom: -40px;
+}
+  
+  .pluss_minus_row{
+    padding: 25px;
+  }
+  .col_white p ,.col_black p{
+    font-size: 18px;
+  }
+  .right_third_col{
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  h2{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  
+  .first_section {
+    background-size: contain;
+    height: 160px;
+  }
+  .top_section .col-6{
+padding: 0;
+  }
+  .img_col{
+    text-align: center
+    }
+  .right_sec_col{
+    padding-top: 30px;
+  }
+  .second_section p{
+    padding: 0 25px;
+    text-align: center;
+  }
+  .row_set_whi{
+    margin: 10px -25px;
+  }
+  .third_row .left_third_col{
+    display: none;
+  }
+  .third_row .right_third_col{
+    background-image: none;
+    flex: 0 0 100%;
+    height: 73vh;
+  }
+  .desktop122_image{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer_row .col_ew{
+display: none;
+  }
+  .empty_div{
+    flex: 0 0 100.666667%;
+    max-width: 100.666667%;
+  }
+  .empty_div img {
+    margin-top: -50px;
+    margin-bottom: -37px;
+  }
+  .faq_container{
+    padding: 35px 0 30px;
+  }
+  .right_third_col .container{
+    position: initial
+  }
+  .right_third_col .container .row{
+    margin-top: 20px;
+  }
+  .right_third_col a{
+    margin-bottom: 10px;
+  }
+  .forth_right_col{
+    padding: 0 15px ;
+  }
+  .forth_section{
+    padding-bottom: 40px;
+  }
+  .fifth_section p{
+    margin-top: 20px;
+  }
+  .fifth_section .container:not(:last-child){
+    padding-bottom: 40px;
+  }
+  body, html{
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .first_section{
+    height: 33vh;
+    background-size: contain;
+  }
+}

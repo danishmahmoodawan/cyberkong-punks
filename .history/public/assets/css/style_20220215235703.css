@@ -1,0 +1,137 @@
+html {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  background: #638596;
+}
+p{
+  margin-bottom: 0px;
+  font-family: 'Press Start 2P';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#FFF
+}
+h2{
+  font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+ margin-bottom: 0;
+ padding-top: 15px;
+}
+.pricing_tab{
+  background: #555555;
+  padding: 2px 2px;
+  margin: 15px 0;
+}
+.set_col{
+padding: 0;
+}
+.singns{
+  font-family: 'Press Start 2P';
+  font-size: 23px;
+  line-height: 18px;
+  color: white;
+}
+.set_p{
+display: block;
+text-align: center;
+margin: 0 auto;
+}
+.singns:hover{
+  color: wheat;
+  text-decoration: none;
+}
+.price_set{
+  background: #333333;
+  padding: 8px 0px;
+    margin: 12px 15px;
+}
+.col_black p{
+float: right;
+}
+.pricing_tab p{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.text_a{
+  margin-top: 10px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+/* css start */
+.top_image{
+  background-image: url('images/background_image.png');
+}
+.bg_set{
+  background: #111111;
+  padding: 35px;
+}
+.second_content{
+  background: #111111;
+  padding: 35px;
+}
+.font_set{
+  font-family: Press Start 2P;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.top_content .button{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+/* media query */
+@media only screen and (min-width: 1025px) {
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+
+}
